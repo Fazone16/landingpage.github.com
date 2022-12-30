@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+body::-webkit-scrollbar {
+      display: none;
+}
+
+:root {
+      --light-blue: #a2d9ff;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR SEMUA */
+.navbar-brand {
+      font-family: 'Changa', sans-serif;
+      font-size: 1.8rem;
+      text-shadow: #000 2px 2px;
+}
+.jumbotron {
+      background-color: var(--light-blue);
+      height: 100vh;
+      padding-bottom: 0px;
+}
+.jumbotron-profil {
+      background-color: var(--light-blue);
+      justify-content: center;
+}
+.foto-logo {
+      text-align: center;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      border: 4px solid #eaeaea;
+}
+.testi {
+      background-color: var(--light-blue);
+}
+.carousel-item {
+      background-color: var(--light-blue);
+}
+.img-thumbnail {
+      background-color: var(--light-blue);
+      border-radius: 100%;
+      border: 2px solid #fff;
+}
+.jumbotron {
+      width: 100%;
+}
+.keahlian {
+      background-color: var(--light-blue);
+}
+
+
+
+/* CSS KONTAK */
+.btn-kontak {
+      max-width: 400px;
+      height: 47px;
+      background-color: var(--light-blue);
+}
+.hover-kanan:hover {
+      margin-left: 10px;
+}
+.hover-kiri:hover {
+      margin-left: -15px;
+}
+.slide-cer {
+      overflow-x: scroll;
+}
