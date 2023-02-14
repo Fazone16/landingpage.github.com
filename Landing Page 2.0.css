@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #0a2351;
+}
+.offcanvas-body {
+    background-color: #0A2351;
+}
+.nav1,
+.offcanvas-header {
+    background-color: #002244;
+    opacity: 75;
+}
+.text-1 {
+    color: #72A0C1;
+}
+.text-2 {
+    color: #0a2351;
+}
+.bg-utama {
+    background-color: #2a52be;
+}
+.border-utama {
+    border-color: #2a52be;
+    border: 50px solid #2a52be;
+}
+
+@media only screen and (min-width: 1000px) {
+    .c-contacts form {
+        width: 50%;
+    }
+}
+
+*.fa-gear,
+*.fa-instagram,
+*.fa-shop,
+*.fa-github {
+    color: white;
+}
+*.fa-gear:hover,
+*.fa-instagram:hover,
+*.fa-shop:hover,
+*.fa-github:hover {
+    color: #0071c5;
+}
+
+
+/* Home */
+.c-home {
+    min-height: 100vh;
+}
+.name {
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.job {
+    color: #72A0C1;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+}
+.intro {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+}
+.profile {
+    width: 60%;
+    margin-top: 40px;
+}
+*.fa-caret-down {
+    color: white;
+    font-size: 2rem;
+}
+.ball{
+    animation:ball 5s infinite;
+    
+}
+@keyframes ball{
+    0%{
+    transform:translate3d(0,0,0)}
+    20%{
+        transform:translate3d(0,-40px,0);
+    }
+    40%{
+        transform:translate3d(0,0,0)  
+    }
+    60%{
+        transform:translate3d(0,-30px,0) 
+    }
+    75%{
+        transform:translate3d(0,0,0)  
+    }
+    85%{
+        transform:translate3d(0,-15px,0) 
+    }
+    100%{
+        transform:translate3d(0,0,0)
+    }
+}
+
+
+/* ABOUT */
+.c-about {
+    margin-top: 50px;
+    background-color: #2a52be;
+    border-radius: 50px 50px 0px 0px;
+}
+.n-about {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid #0CAFFF;
+    padding-bottom: 0px;
+    width: 100px;
+}
+.n-front {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #A4DDED;
+    text-align: center;
+    border-bottom: 5px solid #A4DDED;
+    padding-bottom: 0px;
+    width: 250px;
+}
+
+/* SKILLS */
+.c-skill {
+    background-color: #2a52be;
+    margin-top: -100px;
+    border-radius: 0px 0px 20px 20px;
+}
+.bg-skill {
+    background-color: #2a52be;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    box-shadow: -2px -2px 15px 1px #0047AB,
+                2px 2px 15px 1px #0a2351;
+}
+*.fa-html5,
+*.fa-css3-alt,
+*.fa-square-js,
+*.fa-bootstrap {
+    font-size: 30px;
+    color: white;
+}
+*.fa-html5,
+*.fa-css3-alt {
+    margin-left: 3px;
+}
+.skill {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: white;
+}
+/* END SKILLS */
+
+/* PROJECTS */
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.tab-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-dark {
+    background-color: #2a52be;
+    border: 3px solid #2a52be;
+    color: white;
+}
+.projects-img img {
+    width: 80%;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: 5px solid #2a52be;
+}
+.projects-img button {
+    margin-top: -15px;
+}
+.projects-img p {
+    width: 50%;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 9px;
+}
+
+/* CONTACTS */
+.c-contacts {
+    background-color: #2a52be;
+}
+#name,
+#email,
+#subject {
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+}
+#message {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+}
+#send,
+#loading {
+    width: 180px;
+}
+#name:focus,
+#email:focus,
+#subject:focus,
+#message:focus {
+    padding-left: 10px;
+    outline-style: none;
+    color: white;
+}
+*.fa-check {
+    font-size: 3rem;
+    color: white;
+    background: green;
+    padding: 10px;
+    border-radius: 100%;
+}
+.btn-close {
+    text-decoration-color: white;
+}
+.offcanvas-body img {
+    width: 50%;
+}
+.offcanvas-body p a {
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.offcanvas-body p a:hover {
+    opacity: 0.5;
+    font-weight: bold;
+}
